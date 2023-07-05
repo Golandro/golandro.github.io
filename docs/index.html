@@ -2,8 +2,21 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <base href="https://golandro.github.io/" target="_blank">
+        <link rel="stylesheet" type="text/css" href="static/general-style.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+        <script src="static/main.js"></script>
+        <meta name="keywords" content="personal, website, golandro">
+        <meta name="description" content="Golandro's personal github pages">
+        <meta name="author" content="Golandro">
+
     </head>
     <body>
-        <h1>Golandro's Test Website</h1>
+        <noscript>
+            <h3>Cannot Load JavaScript.</h3>
+            <h4>Is it a mistake or an error?</h4>
+        </noscript>
+        <div class="frame_base"></div>
+        <script>$(".frame_base").load("static/base.html",base_loaded())</script>
     </body>
 </html>
